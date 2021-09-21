@@ -10,5 +10,14 @@
 
 ### Table of Contents:
 * [Implement and Add Elements](#implement-and-add-elements)
+* [Print Elements of an Array](#print-elements-of-an-array)
+* [Remove all the Even Integers](#remove-all-the-even-integers)
+* [Find the minimum value in an Array](#find-the-minimum-value-in-an-array)
+* [Find the maximum value in an Array](#find-the-maximum-value-in-an-array)
+* [Reverse an Array](#reverse-an-array)
+* [Check is a string is palindrome or not](#check-if-a-string-is-palindrome-or-not)
+* [Kth Largest or Kth Smallest number in an Array](#kth-largest-or-kth-smallest-number-in-an-array)
+* [Two Sum Problem](#two-sum-problem)
+* [Rotation of an Array by one](#rotation-of-an-array-by-one)
 
 ## Implement and Add Elements
