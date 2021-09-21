@@ -15,7 +15,7 @@
 * [Find the minimum value in an Array](#find-the-minimum-value-in-an-array)
 * [Find the maximum value in an Array](#find-the-maximum-value-in-an-array)
 * [Reverse an Array](#reverse-an-array)
-* [Check is a string is palindrome or not](#check-if-a-string-is-palindrome-or-not)
+
 * [Kth Largest or Kth Smallest number in an Array](#kth-largest-or-kth-smallest-number-in-an-array)
 * [Two Sum Problem](#two-sum-problem)
 * [Rotation of an Array by one](#rotation-of-an-array-by-one)
@@ -153,30 +153,25 @@ public static void reverse(int[] numbers, int start, int end) {
 	}
 ```
 
-<a name="check-if-a-string-is-palindrome-or-not"></a> <>
-## Check is a string is palindrome or not
-
-```
-
-```
-
-<a name="kth-largest-or-kth-smallest-number-in-an-array"></a>
-## Kth Largest or Kth Smallest number in an Array
-
-```
-
-```
 
 <a name="two-sum-problem"></a>
 ## Two Sum Problem
 
+```java
+public static int[] twoSum(int[] numbers, int target) {
+		int[] result = new int[2];
+		Map<Integer, Integer> map = new HashMap<>();
+		
+		for(int i = 0; i < numbers.length; i++) {
+		    if(!map.containsKey(target - numbers[i])) {
+			   map.put(numbers[i], i);
+		    } else {
+		         result[1] = i;
+		         result[0] = map.get(target - numbers[i]);
+		         return result;   
+		    }
+		}
+		throw new IllegalArgumentException("Two numbers not found");
+	}
 ```
 
-```
-
-<a name="rotation-of-an-array-by-one"></a>
-## Rotation of an Array by one
-
-```
-
-```
