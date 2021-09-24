@@ -101,7 +101,7 @@ public int[] removeEven(int[] arr) {
 <a name="find-the-minimum-value-in-an-array"></a>
 ## Find the minimum value in an Array
 
-### 1st Approach (using sort method):
+#### 1st Approach (using sort method):
 
 ```java
 public int findMinimum(int[] arr) {
@@ -110,7 +110,7 @@ public int findMinimum(int[] arr) {
 	}
 ```
 
-### 2nd Approach (without using sort method):
+#### 2nd Approach (without using sort method):
 ```java
 public int findMinimum(int[] arr) {
 		// edge case
@@ -131,7 +131,7 @@ public int findMinimum(int[] arr) {
 <a name="find-the-maximum-value-in-an-array"></a>
 ## Find the maximum value in an Array
 
-### 1st Approach (using sort method):
+#### 1st Approach (using sort method):
 
 ```java
 public int findMaximum(int[] arr) {
@@ -140,7 +140,7 @@ public int findMaximum(int[] arr) {
 	}
 ```
 
-### 2nd Approach (without using sort method):
+#### 2nd Approach (without using sort method):
 ```java
 public int findMaximum(int[] arr) {
 		// edge case
